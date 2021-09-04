@@ -106,5 +106,5 @@ ca: fs.readFileSync('/etc/letsencrypt/live/ebtico.com/chain.pem', 'utf8')
 
  // Set 'views' directory for any views 
  // being rendered res.render()
-const PORT =6304;
+const PORT =80;
 app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
